@@ -1,22 +1,10 @@
-# %% [markdown]
-# ## Telegram bot Notification 
-
-# %%
-# !pip install pyTelegramBotAPI
-
-# %%
 import telebot
 
 
 
-# %%
-# Replace 'YOUR_BOT_TOKEN' with your actual token
 bot_token = ""
 bot = telebot.TeleBot(bot_token)
 
-
-
-# %%
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
 	bot.reply_to(message, "Howdy, how are you doing?")
@@ -29,9 +17,6 @@ def help_message(message):
 def echo_all(message):
 	bot.reply_to(message, message.text)
 
-
-
-# %%
 bot.infinity_polling()
 
 
