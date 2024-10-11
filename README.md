@@ -1,4 +1,4 @@
-# Project's python only.
+# Project's Bot Telegram from python only.
 
 ## project for start api only - x-bot-Telegram.py 
 
@@ -7,7 +7,8 @@ Test send message     -  r-bot-Telegram.py
 Test library Telebot  -  bot-Telegram.py    ; Easy to use but Noncommercial
 
 
-## Telegram use botfather
+## Telegram use BotFather
+- Add new member search @BotFather.
 - start - Create /newbot
 - name  - xxxxx_bot
 - look token from text
